@@ -4,7 +4,14 @@
     "declaration": true,
     "target": "es5",
     "esModuleInterop": true,
+    "noImplicitAny": true,
     "jsx": "react",
     "lib": ["esnext", "dom"]
-  }
+  },
+  "exclude": [
+    "node_modules/"
+  ],
+  "include": [
+    "**/*.ts"
+  ]
 }

@@ -30,6 +30,8 @@
   },
   "dependencies": {
     "danger": "^9.2.0",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
     "react-frame-component": "^4.1.1"
   }
 }

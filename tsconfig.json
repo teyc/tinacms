@@ -6,6 +6,18 @@
     "esModuleInterop": true,
     "noImplicitAny": true,
     "jsx": "react",
+    "baseUrl": "./packages",
+    "paths": {
+      "@tinacms/api-git": [ "@tinacms/api-git/src"],
+      "@tinacms/core": [ "@tinacms/core/src"],
+      "@tinacms/fields": [ "@tinacms/fields/src"],
+      "@tinacms/form-builder": [ "@tinacms/form-builder/src"],
+      "@tinacms/git-client": [ "@tinacms/git-client/src"],
+      "@tinacms/icons": [ "@tinacms/icons/src"],
+      "@tinacms/scripts": [ "@tinacms/scripts/src"],
+      "@tinacms/styles": [ "@tinacms/styles/src"],
+      "tinacms": ["tinacms/src"]
+    },
     "lib": ["esnext", "dom"]
   },
   "exclude": [
